@@ -14,7 +14,7 @@ export default function Home() {
       <Rating defaultValue={0} size="lg" />
  
       <Textarea
-        size="sm" mt = "sm"
+        fz ="12" mt = "sm"
         rows={3}
         label = "Your review"
         //description="Input description"
@@ -28,7 +28,7 @@ export default function Home() {
       <Title order={4}> Elon Musk </Title>
       <Rating defaultValue={5} size="sm" />
       </Group>
-      <Text c="dimmed" size="sm" ta= "center">Best pizza in this world. l give you X score. </Text>
+      <Text c="dimmed" fz ="15" ta= "center">Best pizza in this world. l give you X score. </Text>
       
       <Divider my="md" />
 
@@ -36,13 +36,13 @@ export default function Home() {
       <Title order={4}> Mark Zuck </Title>
       <Rating defaultValue={4} size="sm" />
       </Group>
-      <Text c="dimmed" size="sm" ta= "center">My favourite part is pepperoni </Text>
+      <Text c="dimmed" fz ="15" ta= "center">My favourite part is pepperoni </Text>
 
       <Group justify="center">
       <Pagination color="orange" mt = "sm" boundaries ={1} total={20} />
       </Group>
 
-      <Text ta="center" my="sm" c ="dimmed">
+      <Text ta="center" fz ="15" c ="dimmed" mt = "sm" >
         Copyright © 2024 Yosita Satiman 660610788
       </Text>
     </Container>
