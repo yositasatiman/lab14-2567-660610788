@@ -26,7 +26,7 @@ export default function Home() {
       <Divider my="md" />
       <Group justify="center">
       <Title order={4}> Elon Musk </Title>
-      <Rating defaultValue={5} size="sm" />
+      <Rating defaultValue={5} size="sm" readOnly/>
       </Group>
       <Text c="dimmed" fz ="15" ta= "center">Best pizza in this world. l give you X score. </Text>
       
@@ -34,7 +34,7 @@ export default function Home() {
 
       <Group justify="center">
       <Title order={4}> Mark Zuck </Title>
-      <Rating defaultValue={4} size="sm" />
+      <Rating defaultValue={4} size="sm" readOnly />
       </Group>
       <Text c="dimmed" fz ="15" ta= "center">My favourite part is pepperoni </Text>
 
